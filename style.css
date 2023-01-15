@@ -1,0 +1,85 @@
+*{
+    font-family: sans-serif;
+}
+h2{
+    
+}
+.test1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.test2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.test3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: rgb(250, 94, 198);
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 500px;
+    top: 30px;
+    z-index: 2;
+}
+.test4{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: rgb(217, 255, 127);
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 30px;
+    left: 300px;
+    z-index: 2;
+}
+#test5{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: tan;
+    position: relative;
+}
+.test6{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: rgb(128, 76, 248);
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
